@@ -1,6 +1,9 @@
 name: Test Ping
 
-on: workflow_dispatch
+on:
+  push:
+    branches: ["master"]
+  workflow_dispatch:
 
 permissions:
   contents: write
