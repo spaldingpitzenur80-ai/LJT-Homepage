@@ -36,5 +36,3 @@ jobs:
           git add -A
           git commit -m "Deploy Jekyll site"
           git push --force "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" gh-pages:gh-pages
-        env:
-          GITHUB_TOKEN: ***
