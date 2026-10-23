@@ -2,6 +2,9 @@ name: Test Ping
 
 on: workflow_dispatch
 
+permissions:
+  contents: write
+
 jobs:
   ping:
     runs-on: ubuntu-latest
